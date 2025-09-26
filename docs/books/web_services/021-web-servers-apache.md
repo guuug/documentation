@@ -3,7 +3,7 @@ author: Antoine Le Morvan
 contributors: Steven Spencer, Ganna Zhyrnova
 title: Part 2.1 Web Servers Apache 
 ---
-
+https://www.al3alme.com
 ## Apache
 
 In this chapter, you will learn about the web server Apache.
@@ -48,7 +48,7 @@ The administrator will have to choose between two installation methods:
 * **Package installation**: the distribution vendor supplies **stable, supported** (but sometimes older) versions
 
 * **Installation from source**: This involves the administrator compiling the software, who can specify the options that interest him or her, thus optimizing the service. Since Apache has a modular architecture, it is generally unnecessary to re-compile the Apache software to add or remove additional functionalities (add or remove modules).
-
+https://www.al3alme.com/
 The package-based installation method is strongly recommended. Additional repositories are available to install more recent versions of Apache on older distributions, but nobody will provide support in case of problems.
 
 On Enterprise Linux distributions, the `httpd` package provides the Apache server.
@@ -79,7 +79,7 @@ apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
 $ grep apache /etc/group
 apache:x:48:
 ```
-
+https://www.al3alme.com/
 Enable and start the service:
 
 ```bash
